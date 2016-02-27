@@ -1,3 +1,9 @@
+net-snmp (5.7.2~dfsg-clearwater1) trusty; urgency=medium
+
+  * Correct check for OID landing inside proxied space (Closes: #2669)
+
+ -- Project Clearwater Maintainers <maintainers@projectclearwater.org>  Wed, 23 Sep 2015 18:28:25 +0000
+
 net-snmp (5.7.2~dfsg-8.1ubuntu3.1) trusty-security; urgency=medium
 
   * SECURITY UPDATE: denial of service via crafted SNMP trap message
