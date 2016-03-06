@@ -265,6 +265,14 @@ typedef struct snmp_pdu {
     int             range_subid;
     
     void           *securityStateRef;
+
+    /*************************************************************************/
+    /* DCL added fields to permit INFORM responses to be correlated with     */
+    /* original requests.                                                    */
+    /*************************************************************************/
+    void *         inform_callback;
+    void *        inform_correlator;
+
 } netsnmp_pdu;
 
 
