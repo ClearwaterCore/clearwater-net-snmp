@@ -1,4 +1,4 @@
-Source: net-snmp
+Source: clearwater-net-snmp
 Section: net
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -18,6 +18,11 @@ Vcs-Git: git://anonscm.debian.org/pkg-net-snmp/pkg-net-snmp.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-net-snmp/pkg-net-snmp.git
 XS-Python-Version: 2.7
 Homepage: http://net-snmp.sourceforge.net/
+
+Package: clearwater-net-snmp
+Architecture: all
+Depends: libsnmp30, libsnmp30-dbg, libsnmp-base, libsnmp-dev, libsnmp-perl, python-netsnmp, snmp, snmpd, tkmib
+Description: Net-snmp with Clearwater patches
 
 Package: snmpd
 Architecture: any
