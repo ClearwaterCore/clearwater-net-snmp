@@ -1,3 +1,9 @@
+Description:
+  This file is copied directly into our Centos build. If you change
+  anything in this patch, ensure that it is duplicated in the Centos version:
+    centos-clearwater-net-snmp/SOURCES/inclusiveness.patch
+
+
 Index: net-snmp-5.7.2~dfsg/agent/snmp_agent.c
 ===================================================================
 --- net-snmp-5.7.2~dfsg.orig/agent/snmp_agent.c	2015-12-09 11:09:33.000000000 +0000

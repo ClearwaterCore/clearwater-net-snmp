@@ -1,5 +1,9 @@
 Description: Adds callbacks on INFORM calls
 
+  This file is copied directly into our Centos build. If you change
+  anything in this patch, ensure that it is duplicated in the Centos version:
+    centos-clearwater-net-snmp/SOURCES/add_trap_send_callbacks
+
  net-snmp (5.7.2~dfsg-clearwater3) trusty; urgency=medium
 
    * Add callback on INFORM responses
