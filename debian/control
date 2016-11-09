@@ -8,9 +8,9 @@ Uploaders: Jochen Friedrich <jochen@scram.de>, Thomas Anders <tanders@users.sour
 Build-Depends: debhelper (>= 9), libtool, libwrap0-dev, libssl-dev (>> 0.9.8), perl (>=5.8), libperl-dev,
  python-all (>= 2.6.6-3~), python-setuptools (>=0.6b3), python2.7-dev,
  autoconf, automake, autotools-dev, debianutils (>=1.13.1), dh-autoreconf,
- bash (>=2.05), findutils (>=4.1.20), procps, 
- libbsd-dev [kfreebsd-i386 kfreebsd-amd64], 
- libkvm-dev [kfreebsd-i386 kfreebsd-amd64], 
+ bash (>=2.05), findutils (>=4.1.20), procps,
+ libbsd-dev [kfreebsd-i386 kfreebsd-amd64],
+ libkvm-dev [kfreebsd-i386 kfreebsd-amd64],
  libsensors4-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64],
  libmysqld-dev, dh-apport
 Standards-Version: 3.9.4
@@ -18,11 +18,6 @@ Vcs-Git: git://anonscm.debian.org/pkg-net-snmp/pkg-net-snmp.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-net-snmp/pkg-net-snmp.git
 XS-Python-Version: 2.7
 Homepage: http://net-snmp.sourceforge.net/
-
-Package: clearwater-net-snmp
-Architecture: all
-Depends: libsnmp30, libsnmp30-dbg, libsnmp-base, libsnmp-dev, libsnmp-perl, python-netsnmp, snmp, snmpd, tkmib
-Description: Net-snmp with Clearwater patches
 
 Package: snmpd
 Architecture: any
@@ -43,7 +38,7 @@ Breaks: libsnmp15 (<< 5.7.2~dfsg-0.1)
 Description: SNMP (Simple Network Management Protocol) applications
  The Simple Network Management Protocol (SNMP) provides a framework
  for the exchange of management information between agents (servers)
- and clients. 
+ and clients.
  .
  The Net-SNMP applications are a collection of command line clients
  for issuing SNMP requests to agents.
