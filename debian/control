@@ -1,4 +1,4 @@
-Source: clearwater-net-snmp
+Source: net-snmp
 Section: net
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
